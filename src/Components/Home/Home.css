@@ -1,0 +1,65 @@
+.home{
+  background-image: url(../../images/rectangle1.png);
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+
+.image{
+  height: 416px;
+  width: 270px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.image:hover{
+  border: 5px solid goldenrod;
+}
+.image-container{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color: white;
+  display: inline-flex;
+  bottom: 50px;
+}
+.text-1{
+  position: absolute;
+  bottom: 50px;
+  left: 60px;
+}
+.text-2{
+  position: absolute;
+  bottom: 50px;
+  left: 400px;
+}
+.text-3{
+  position: absolute;
+  bottom: 50px;
+  left: 620px;
+}
+.text-4{
+  position: absolute;
+  bottom: 50px;
+  left: 920px;
+}
+.info{
+  margin-top: 100px;
+  color: blue;
+  padding: 2px;
+  display: flex;
+}
+.btn-booking{
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.book{
+  left: 20px;
+  text-align: center;
+  padding: 5px;
+}

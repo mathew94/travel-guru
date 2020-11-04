@@ -1,0 +1,9 @@
+.book-page{
+    position: absolute;
+    margin-top: 200px;
+    background-color: rgb(127, 204, 255);
+    margin-left: 400px;
+    text-align: center;
+    padding: 5px;
+    
+}
